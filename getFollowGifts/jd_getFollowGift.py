@@ -58,19 +58,6 @@ readmes = """
 ## `【更新记录】`
     2021.6.6：（v1.0.0 Beta）
         * Test
-
-
-###### [GitHub仓库 https://github.com/curtinlv/JD-Script](https://github.com/curtinlv/JD-Script) 
-###### [TG频道 https://t.me/TopStyle2021](https://t.me/TopStyle2021)
-###### [TG群 https://t.me/topStyle996](https://t.me/topStyle996)
-###### 关注公众号【TopStyle】
-![TopStyle](https://gitee.com/curtinlv/img/raw/master/gzhcode.jpg)
-# 
-    @Last Version: %s
-
-    @Last Time: 2021-06-06 07:57
-
-    @Author: Curtin
 #### **仅以学习交流为主，请勿商业用途、禁止违反国家法律 ，转载请留个名字，谢谢!** 
 
 # End.
@@ -97,7 +84,6 @@ scriptHeader = """
 ║                                      ║
 ════════════════════════════════════════
 @Version: {}""".format(version)
-remarks = '\n\n\tTG交流 : https://t.me/topstyle996\n\n\tTG频道 : https://t.me/TopStyle2021\n\n\t公众号 : TopStyle\n\n\t\t\t--By Curtin\n'
 ######JD Cookie (多账号&分隔)
 
 

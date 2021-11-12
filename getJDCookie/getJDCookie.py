@@ -9,23 +9,7 @@ Date: 2021/5/9 下午5:53
 
 print('''
 ******************************************
-获取京东cookie工具_v1.2
-
-Author: Curtin
-
-Date: 2021-01-24 17:43
-
-UpdateTime：2021-06-20 10:55
-
-# GitHub https://github.com/curtinlv
-# TG交流 https://t.me/topstyle996
-# TG频道 https://t.me/TopStyle2021 
-# 关注公众号【TopStyle】
- 
- Ps:需依赖谷歌浏览Chrome 和 驱动 chromedriver  ，版本要求一致！
- 谷歌浏览Chrome : https://www.google.cn/chrome/
- 驱动链接: http://npm.taobao.org/mirrors/chromedriver/  (下载放在脚本同目录下)
- 
+获取京东cookie工具_v1.2 
 ******************************************
 ''')
 import datetime
