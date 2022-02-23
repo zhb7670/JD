@@ -23,6 +23,9 @@ cron "5 6-18/6 * * *" script-path=jd_fruit_task.js,tag=东东农场日常任务
 
 export DO_TEN_WATER_AGAIN="" 默认再次浇水
 
+每号间隔（毫秒），默认0毫秒（0分钟）
+export fruit_sleep=20000
+
 */
 const $ = new Env('东东农场日常任务');
 let cookiesArr = [],
@@ -78,7 +81,11 @@ const urlSchema = `openjd://virtual?params=%7B%20%22category%22:%20%22jump%22,%2
             $.retry = 0;
             //await shareCodesFormat();
             await jdFruit();
+			await $.wait(30 * 1000);
         }
+		if ($.isNode()) {
+		process.env.fruit_sleep ? await $.wait(Number(process.env.fruit_sleep)) : ''
+		}
     }
     if ($.isNode() && allMessage && $.ctrTemp) {
         await notify.sendNotify(`${$.name}`, `${allMessage}`)
